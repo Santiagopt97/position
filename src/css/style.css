@@ -6,7 +6,8 @@
 
 .contenedor{
     border: 1px solid black;
-    height: 900px;
+    height: 2500px;
+    margin: 40px;
 }
 
 .position{
@@ -20,24 +21,36 @@
 .static{
     background-color: black;
     color: whitesmoke;
+    position: static;
 }
 
 .relative{
     background-color: brown;
     color: aqua;
+    position: relative;
+    top: -75px;
+    left: 70px;
 }
 
 .absolute{
     background-color: violet;
     color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .fixed{
     background-color: cadetblue;
     color: brown;
+    position: fixed;
+    top: 0;
+    left: 50%;
 }
 
 .sticky{
-    background-color: yellow;
+    background-color:darkolivegreen;
     color: coral;
+    position: sticky;
+    top:50px
 }
