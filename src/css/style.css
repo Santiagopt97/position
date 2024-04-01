@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 1px solid black;
+    height: 900px;
+}
+
+.position{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.relative{
+    background-color: brown;
+    color: aqua;
+}
+
+.absolute{
+    background-color: violet;
+    color: black;
+}
+
+.fixed{
+    background-color: cadetblue;
+    color: brown;
+}
+
+.sticky{
+    background-color: yellow;
+    color: coral;
+}
